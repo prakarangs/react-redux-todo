@@ -1,8 +1,10 @@
 import React from "react";
-import PropTypes from 'prop-types'
+import { VisibilityFilters } from '../actions'
 
 const Footer = () => (
-		<div>Footer</div>
+		<p>
+
+		</p>
 )
 
 export default Footer;
