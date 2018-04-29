@@ -8,7 +8,7 @@ const TodoList = ({todos, onTodoClick}) => (
 		</ul>
 )
 
-TodoList.PropTypes = {
+TodoList.propTypes = {
 		todos: PropTypes
 				.arrayOf({id: PropTypes.number.isRequired, completed: PropTypes.bool.isRequired, text: PropTypes.string.isRequired})
 				.isRequired,
